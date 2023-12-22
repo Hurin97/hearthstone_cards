@@ -6,10 +6,10 @@ api_g:
     }
 postgresql:
   hostname: 'localhost'
-  username: 'hurin19'
-  password: '1947'
-  db_name: 'blizhs'
-  port: '5432'
+  username: ''
+  password: ''
+  db_name: ''
+  port: ''
 telegram:
-  token: "6408080991:AAFMscCvxxMQem_sa0SG0YJBz19EM7eew4U"
-  chat_id: "181719421"
+  token: ""
+  chat_id: ""
