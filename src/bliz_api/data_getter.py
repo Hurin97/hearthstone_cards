@@ -1,4 +1,3 @@
-# from os import path
 import requests
 import time
 from service.telebot import Telegram_log as Tellog
