@@ -6,11 +6,6 @@ from service.telebot import Telegram_log as Tellog
 class Data_getter:
 
     def __init__(self, cfg) -> None:
-        # self.url = "https://omgvamp-hearthstone-v1.p.rapidapi.com/cards"
-        # self.headers = {
-	    # "X-RapidAPI-Key": "b3c49bc6camshf773d36a18e2923p1390abjsn585de42e1736",
-	    # "X-RapidAPI-Host": "omgvamp-hearthstone-v1.p.rapidapi.com"
-        # }
         self.url = cfg['api_g']['url']
         self.headers = cfg['api_g']['headers']  
         self.tellog = Tellog(cfg)
